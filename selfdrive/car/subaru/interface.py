@@ -18,7 +18,7 @@ class CarInterface(CarInterfaceBase):
 
     ret.carName = "subaru"
     ret.radarOffCan = True
-    ret.dashcamOnly = candidate in PREGLOBAL_CARS
+    #ret.dashcamOnly = candidate in PREGLOBAL_CARS
     ret.autoResumeSng = False
 
     if candidate in PREGLOBAL_CARS:
